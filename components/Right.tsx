@@ -32,7 +32,7 @@ function Right() {
           ・学生時代にゲーム制作やゲーム改造に触れたことをきっかけに、プログラミングに興味を持つ。
         </p>
         <p className=" leading-9 text-gray-200">
-          ・大学卒業後はWebエンジニアとして働きながら、Reactを中心にNext.jsやTypeScriptなどのフロントエンド技術を学習。Laravelを用いたバックエンド開発や個人開発にも取り組んでいます。
+          ・大学卒業後はWebエンジニアとして働きながら、Reactを中心にNext.jsやTypeScriptなどのフロントエンド技術を学習。Next.jsやLaravelを用いた個人開発にも取り組んでいます。
         </p>
         <p className=" leading-9 text-gray-200">
           ・趣味はギターや音楽制作、イラスト、動画編集などの創作活動。

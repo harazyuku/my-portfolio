@@ -12,19 +12,19 @@ import {
 } from "recharts";
 
 const data = [
-  { skill: "HTML/CSS", level: 70 },
-  { skill: "JS/TS", level: 75 },
-  { skill: "React/Next.js", level: 65 },
-  { skill: "Laravel", level: 50 },
-  { skill: "PHP", level: 65 },
+  { skill: "HTML/CSS", level: 50 },
+  { skill: "JS/TS", level: 40 },
+  { skill: "React/Next.js", level: 45 },
+  { skill: "Laravel", level: 40 },
+  { skill: "PHP", level: 45 },
   { skill: "API設計", level: 20 },
-  { skill: "JSON/REST", level: 60 },
-  { skill: "MySQL", level: 55 },
-  { skill: "Node.js", level: 60 },
-  { skill: "Git", level: 70 },
-  { skill: "Docker", level: 40 },
-  { skill: "AWS/Vercel", level: 20 },
-  { skill: "Linux/CLI", level: 45 },
+  { skill: "JSON/REST", level: 30 },
+  { skill: "MySQL", level: 35 },
+  { skill: "Node.js", level: 20 },
+  { skill: "Git", level: 50 },
+  { skill: "Docker", level: 35 },
+  { skill: "AWS/Vercel", level: 10 },
+  { skill: "Linux/CLI", level: 35 },
 ];
 
 // Rechartsの型定義エラーを避けるため、必要なプロパティを定義
