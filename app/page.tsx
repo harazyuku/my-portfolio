@@ -56,7 +56,7 @@ export default function Page() {
           className="bg-black/60 px-6 py-20 lg:px-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3, margin: "-100px" }}
+          viewport={{ once: true, amount: 0.05 }}
           variants={fadeInVariant}
         >
           <div className="mx-auto max-w-7xl">
@@ -75,7 +75,7 @@ export default function Page() {
           className="mx-auto max-w-7xl px-6 py-20 lg:px-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
+          viewport={{ once: true, amount: 0.05 }}
           variants={fadeInVariant}
         >
           <h2 className="mb-12 inline-block border-b border-white/20 pb-4 text-4xl font-semibold tracking-widest">

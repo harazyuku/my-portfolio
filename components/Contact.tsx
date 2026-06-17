@@ -64,7 +64,7 @@ export default function Contact() {
                             <p className="text-lg md:text-xl font-medium">
                                 CrowdWorks
                             </p>
-                            <p className="text-xs md:text-sm text-gray-400">
+                            <p className="text-xs md:text-sm text-gray-400 hidden md:block">
                                 crowdworks.jp
                             </p>
                         </div>
@@ -105,7 +105,7 @@ export default function Contact() {
                             <p className="text-lg md:text-xl font-medium">
                                 Email
                             </p>
-                            <p className="text-xs md:text-sm text-gray-400">
+                            <p className="text-xs md:text-sm text-gray-400 hidden md:block">
                                 ikehara.yuto.gaku@gmail.com
                             </p>
                         </div>

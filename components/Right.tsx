@@ -80,9 +80,13 @@ function Right() {
               className="grid grid-cols-2 gap-4"
             >
               {menuItems.map((item) => (
-                <button key={item.id} onClick={() => setActiveTab(item.id)} className={`flex flex-col items-center justify-center aspect-square border border-white/20 bg-black/60 p-6 transition-all bg-gradient-to-br ${item.color} to-transparent group`}>
-                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">{item.icon}</div>
-                  <span className="font-bold tracking-widest text-xs">{item.title}</span>
+                <button 
+                  key={item.id} 
+                  onClick={() => setActiveTab(item.id)} 
+                  className="flex flex-col items-center justify-center aspect-square border border-white/20 bg-white/10 p-6 transition-all hover:bg-white/20 hover:border-white/40 active:scale-95 group"
+                >
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform text-white">{item.icon}</div>
+                  <span className="font-bold tracking-widest text-xs text-white">{item.title}</span>
                 </button>
               ))}
             </motion.div>
