@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <header
-      className="sticky top-0 z-50 flex items-center justify-center gap-10 border-b border-white/20 bg-black/80 py-6 text-sm tracking-[0.2em]">
+      className="sticky top-0 z-50 flex items-center justify-center gap-4 sm:gap-10 border-b border-white/20 bg-black/80 py-4 sm:py-6 text-[10px] sm:text-sm tracking-[0.2em]">
       <a href="#home" className="hover:text-gray-300 transition">
         HOME
       </a>

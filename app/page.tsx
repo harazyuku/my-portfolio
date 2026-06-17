@@ -44,7 +44,7 @@ export default function Page() {
             </div>
 
             {/* プロフィール・詳細エリア */}
-            <div id="main" className="flex flex-1 justify-end py-10 lg:py-0">
+            <div id="main" className="flex flex-1 justify-center lg:justify-end py-10 lg:py-0">
               <Right />
             </div>
           </div>

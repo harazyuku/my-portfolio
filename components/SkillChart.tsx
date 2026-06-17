@@ -98,6 +98,10 @@ export default function SkillChart() {
             fill="#4f46e5" 
             radius={[6, 6, 0, 0]}
             barSize={60}
+            isAnimationActive={true}
+            animationBegin={500}
+            animationDuration={1500}
+            animationEasing="ease-out"
           />
         </BarChart>
       </ResponsiveContainer>
