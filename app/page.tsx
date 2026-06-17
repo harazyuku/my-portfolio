@@ -7,9 +7,9 @@ import SkillChart from "@/components/SkillChart";
 import WorkCard from "@/components/WorkCard";
 import Contact from "@/components/Contact";
 import CatBackground from "@/components/CatBackground";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
-const fadeInVariant = {
+const fadeInVariant: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: { 
     opacity: 1, 
@@ -17,6 +17,7 @@ const fadeInVariant = {
     transition: { duration: 0.8, ease: "easeOut" }
   }
 };
+
 
 export default function Page() {
   return (

@@ -8,7 +8,6 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-  TooltipProps,
   CartesianGrid,
 } from "recharts";
 
@@ -28,19 +27,27 @@ const data = [
   { skill: "Linux/CLI", level: 45 },
 ];
 
+// Rechartsの型定義エラーを避けるため、必要なプロパティを定義
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: any[];
+  label?: string;
+}
+
 const CustomTooltip = ({
   active,
   payload,
   label,
-}: TooltipProps<number, string>) => {
+}: CustomTooltipProps) => {
   if (active && payload && payload.length) {
+    const value = payload[0].value;
     return (
       <div className="rounded-lg border border-white/20 bg-black/80 p-4 shadow-xl backdrop-blur-md">
         <p className="mb-1 text-sm font-bold tracking-wider text-gray-400">{label}</p>
         <div className="flex items-center gap-2">
           <div className="h-2 w-2 rounded-full bg-[#4f46e5]" />
           <p className="text-xl font-semibold text-white">
-            {payload[0].value}
+            {value}
             <span className="ml-1 text-xs text-gray-500">%</span>
           </p>
         </div>
