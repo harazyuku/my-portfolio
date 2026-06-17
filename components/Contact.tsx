@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
-import { RiContactsBook3Line } from "react-icons/ri";
-import { FaBriefcase } from "react-icons/fa";
+import { FaBriefcase, FaArrowRightLong } from "react-icons/fa6";
 
 export default function Contact() {
     return (
@@ -12,14 +11,16 @@ export default function Contact() {
                 border
                 border-white/20
                 bg-black/60
-                p-10
+                p-6
+                md:p-10
             "
         >
             <p
                 className="
                     mb-3
                     tracking-[0.4em]
-                    text-sm
+                    text-xs
+                    md:text-sm
                     text-gray-400
                 "
             >
@@ -28,19 +29,19 @@ export default function Contact() {
 
             <h2
                 className="
-                    mb-12
-                    text-6xl
+                    mb-8
+                    md:mb-12
+                    text-4xl
+                    md:text-6xl
                     font-semibold
                 "
             >
                 CONTACT
             </h2>
 
-            <div className="space-y-5">
+            <div className="space-y-4 md:space-y-5">
                 <Link
-                    href="https://crowdworks.jp/public/employees/6748730
-                    
-                    "
+                    href="https://crowdworks.jp/public/employees/6748730"
                     target="_blank"
                     className="
                         group
@@ -49,7 +50,8 @@ export default function Contact() {
                         justify-between
                         border
                         border-white/10
-                        p-6
+                        p-5
+                        md:p-6
                         transition-all
                         duration-300
                         hover:border-white/40
@@ -57,32 +59,31 @@ export default function Contact() {
                     "
                 >
                     <div className="flex items-center gap-4">
-                        <FaBriefcase size={28} />
+                        <FaBriefcase className="text-2xl md:text-3xl" />
                         <div>
-                            <p className="text-xl font-medium">
-                                Works
+                            <p className="text-lg md:text-xl font-medium">
+                                CrowdWorks
                             </p>
-                            <p className="text-sm text-gray-400">
+                            <p className="text-xs md:text-sm text-gray-400">
                                 crowdworks.jp
                             </p>
                         </div>
                     </div>
 
-                    <span
+                    <FaArrowRightLong 
                         className="
-                            text-2xl
+                            text-xl
                             transition-transform
                             duration-300
                             group-hover:translate-x-1
+                            text-white/50
+                            group-hover:text-white
                         "
-                    >
-                        →
-                    </span>
+                    />
                 </Link>
 
                 <a
                     href="mailto:ikehara.yuto.gaku@gmail.com"
-                    
                     className="
                         group
                         flex
@@ -90,7 +91,8 @@ export default function Contact() {
                         justify-between
                         border
                         border-white/10
-                        p-6
+                        p-5
+                        md:p-6
                         transition-all
                         duration-300
                         hover:border-white/40
@@ -98,38 +100,37 @@ export default function Contact() {
                     "
                 >
                     <div className="flex items-center gap-4">
-                        <MdEmail size={28} />
+                        <MdEmail className="text-2xl md:text-3xl" />
                         <div>
-                            <p className="text-xl font-medium">
+                            <p className="text-lg md:text-xl font-medium">
                                 Email
                             </p>
-                            <p className="text-sm text-gray-400">
+                            <p className="text-xs md:text-sm text-gray-400">
                                 ikehara.yuto.gaku@gmail.com
                             </p>
                         </div>
                     </div>
 
-                    <span
+                    <FaArrowRightLong 
                         className="
-                            text-2xl
+                            text-xl
                             transition-transform
                             duration-300
                             group-hover:translate-x-1
+                            text-white/50
+                            group-hover:text-white
                         "
-                    >
-                        →
-                    </span>
+                    />
                 </a>
-
-              
-                
             </div>
 
             <p
                 className="
-                    mt-12
+                    mt-8
+                    md:mt-12
                     text-center
-                    text-sm
+                    text-xs
+                    md:text-sm
                     text-gray-500
                 "
             >

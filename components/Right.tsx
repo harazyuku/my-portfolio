@@ -38,7 +38,7 @@ function Right() {
       case 'works':
         return (
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="space-y-4">
-            <h3 className="text-2xl font-bold border-b border-white/20 pb-2 mb-4">PROJECTS</h3>
+            <h3 className="text-2xl font-bold border-b border-white/20 pb-2 mb-4">WORKS</h3>
             <a href="https://hara-brog-1.onrender.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 border border-white/10 p-4 transition hover:border-white/40 hover:bg-white/5">
               <FaGlobe className="text-lg" />
               <div>
@@ -129,7 +129,7 @@ function Right() {
 
         {/* WORKS */}
         <div className="w-full border border-white/20 bg-black/60 p-6 transition duration-300 hover:-translate-y-1">
-          <h2 className="mb-5 border-b border-white/20 pb-3 text-4xl font-semibold">PROJECT</h2>
+          <h2 className="mb-5 border-b border-white/20 pb-3 text-4xl font-semibold">WORKS</h2>
           <div className="space-y-4">
             <a href="https://hara-brog-1.onrender.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 border border-white/10 p-4 transition hover:border-white/40 hover:bg-white/5">
               <FaGlobe className="text-lg" />

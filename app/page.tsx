@@ -69,17 +69,17 @@ export default function Page() {
           </div>
         </motion.section>
 
-        {/* 経歴セクション */}
+        {/* 実績セクション */}
         <motion.section 
           id="history" 
           className="mx-auto max-w-7xl px-6 py-20 lg:px-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3, margin: "-100px" }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={fadeInVariant}
         >
           <h2 className="mb-12 inline-block border-b border-white/20 pb-4 text-4xl font-semibold tracking-widest">
-            HISTORY
+            WORKS
           </h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
             <WorkCard
